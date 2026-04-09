@@ -22,7 +22,7 @@ ollama pull gemma3
 
 **4. Clone and install dependencies**
 ```bash
-git clone https://github.com/gdg-lokoja/bwai-agent-go
+git clone https://github.com/israeltn/gdg-bwai-agent-go
 cd bwai-agent-go
 go mod download
 ```
