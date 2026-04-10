@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudwego/eino/components/model"
 	"github.com/cloudwego/eino-ext/components/model/ollama"
+	"github.com/cloudwego/eino/components/model"
 )
 
 // OllamaConfig holds connection settings for the Ollama backend.
@@ -19,7 +19,7 @@ type OllamaConfig struct {
 func DefaultOllamaConfig() OllamaConfig {
 	return OllamaConfig{
 		BaseURL: "http://localhost:11434",
-		Model:   "gemma3",
+		Model:   "gemma4:e2b",
 	}
 }
 
